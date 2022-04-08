@@ -1,0 +1,414 @@
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+
+html, body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+.aa-menu li {
+    font-size: 13px !important;
+}
+
+.follow-link{
+    color: #000 !important;
+}
+
+.follow-link:hover{
+    color: #000;
+}
+.hire-text:hover, .hire-text {
+    font-weight: normal !important;
+    background: #2a2a2a;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 50px
+}
+
+.desktop-nav{
+    font-size: 13px !important;
+    text-transform: uppercase !important;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    margin: 20px 20px 20px 20px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 15px 25px 0 rgb(0 0 0 / 5%);
+
+}
+.mobile-nav {
+    display: none;
+}
+.ant-anchor-link {
+    padding: 2px 0 2px 0!important;
+    line-height: 1.143;
+}
+
+.ant-anchor-ink-ball, .ant-anchor-ink::before {
+    display: none !important;
+}
+
+ .ant-menu-horizontal > .ant-menu-item::after, .ant-menu-horizontal > .ant-menu-submenu::after {
+     display: none;
+ }
+
+.hero-section {
+    overflow: hidden;
+    background-color: #ebebeb;
+    height: 90vh;
+}
+
+.recent-works{
+    background-color: rgb(244 244 244);
+    padding: 150px 0 150px 0;
+}
+
+.experience{
+    background-color: #ffffff;
+    padding: 100px 0 100px 0;
+}
+
+.single-work-card .ant-card-body {
+ }
+.single-work-card{
+    border-radius: 25px !important;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 3%);
+}
+.ant-menu-horizontal {
+    line-height: 46px;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    box-shadow: none;
+}
+.single-work-card img{
+    /*display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 60%;*/
+    object-fit: cover;
+}
+/*.single-work-image {*/
+
+/*    height: auto;*/
+/*    width: 60%;*/
+/*}*/
+
+.contact-details{
+    margin-top: 25px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logo {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+    }
+    .mobile-nav {
+        display: flex !important;
+    }
+    .bubble, .desktop-name, .desktop-nav{
+        display: none !important;
+    }
+
+    .hero-section {
+        padding-top: 15px;
+        height: 50vh;
+        text-align: center;
+    }
+
+    .info-title{
+        font-size: 10px !important;
+    }
+
+    .professional-summary-text {
+        font-size: 15px !important;
+        font-weight: normal !important;
+    }
+
+    .what-i-work-with, .info-section {
+        padding: 20px 20px !important;
+    }
+
+    .contact-details{
+        text-align: center !important;
+    }
+
+    .hero-title {
+        font-size: 18px !important;
+    }
+    .tools-and-tech {
+        text-align: left !important;
+    }
+}
+
+.what-i-work-with {
+    padding: 150px 150px;
+    background: rgb(240 242 245);
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .mobile-hire, .mobile-nav {
+        display: none !important;
+    }
+
+    .desktop-nav{
+        display: flex !important;
+    }
+    .hero-section {
+       padding-top: 100px;
+    }
+}
+
+/*.hero {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: inline-flex;
+    width: 96%;
+    max-width: 1270px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}*/
+/*.hero {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 96%;
+    max-width: 1270px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}*/
+
+.hero-photo {
+    position: relative;
+    z-index: 2;
+    width: 270px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hero-sub-title, .hero-title {
+    text-transform: uppercase;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.hero-sub-title {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.bubble {
+    z-index: 3;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 5px 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: start;
+    text-transform: uppercase;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 5px;
+    border: solid #828282 1px;
+    color: #828282;
+    font-size: 13px;
+    line-height: 28px;
+    font-weight: normal;
+    width: 180px;
+    margin-bottom: 20px
+}
+/*
+.bubble {
+    position: absolute;
+    z-index: 3;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 30px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #fff;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 8%);
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: normal;
+}*/
+.bubble.bootstrap {
+    left: 27%;
+    top: 60%;
+    color: blue;
+}
+
+.bubble.react {
+    left: 38%;
+    top: -28%;
+    color: #0029f5;
+}
+
+.bubble.php {
+    right: 40%;
+    top: -28%;
+    color: rgba(88, 138, 246, 0.79);
+}
+
+.bubble.laravel {
+    left: 25%;
+    top: 30%;
+    color: red !important;
+}
+
+.bubble.mysql {
+    left: 30%;
+    top: 4%;
+    color: #009dff;
+}
+
+.bubble.postgres {
+    right: 26%;
+    top: 60%;
+}
+
+.bubble.spring {
+    color: green;
+    top: 30%;
+    right: 25%;
+}
+
+.bubble.javascript {
+    top: 90%;
+    right: 29%;
+    color: #ff7171
+}
+
+.bubble.java {
+    top: 4%;
+    right: 29%;
+    color: #f81900;
+}
+
+.bubble.wordpress {
+    left: 30%;
+    top: 90%;
+}
+
+.salutation {
+    text-transform: uppercase;
+}
+.info-section {
+    padding: 150px 150px;
+}
+.info-title{
+    font-size: 30px !important;
+}
+.professional-summary-div {
+    text-align: justify !important;
+    text-justify: inter-word !important;
+}
+
+.sub-title{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #656565;
+    margin-bottom: 0;
+}
+
+.single {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-div {
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
